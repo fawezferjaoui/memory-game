@@ -1,27 +1,9 @@
-*,
-*::before,
-*::after {
+*{
+  parding : 0;
+  margin: 0;
   box-sizing: border-box;
 }
-
 body {
-  margin: 20px 0;
-  background: #6589f9;
-}
-
-.grid {
-   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.pic {
-  margin: 5px;
-  background-color: #6589f9;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 50px;
-  width: 50px;
+  height: 100vh;
+  background:blue;
 }
